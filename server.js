@@ -13,7 +13,7 @@ app.use('/:id', express.static('./'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan('dev'));
-app.use('/', router);
+
 
 app.get('/:id/res', function (req, res) {
     let resIdOrName = req.param('id');
@@ -59,7 +59,28 @@ app.get('/:idOrName/users', (req, res) => {
     });
 });
 
-app.get('/:nameOrId/restaurants', controller.restaurants.get);
+app.get('/restaurants/:nameOrId', (req, res) => {
+    const nameOrId = req.params.nameOrId;
+    if (isNaN(nameOrId)) {
+      const name = nameOrId;
+      return Restaurant.findAll({ where: { name } })
+        .then(data => res.send(data));
+    }
+    const id = nameOrId;
+    return Restaurant.findAll({ where: { id } })
+      .then(data => res.send(data));
+  });
+
+app.get('/:nameOrId', (req, res, next) => {
+    const id = parseInt(req.params.nameOrId);
+    if (isNaN(id)) {
+      const name = req.params.nameOrId.toLowerCase();
+      if (names.includes(name)) { return next(); }
+    } else {
+      if (id > 0 && id <= 100) { return next(); }
+    }
+    res.sendStatus(404); 
+  });
 
 
 let port = 1335;
