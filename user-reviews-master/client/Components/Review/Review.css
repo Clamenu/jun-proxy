@@ -1,0 +1,17 @@
+#reviewBlock {
+  flex-direction: row-reverse;
+  display: flex;
+  margin: 35px auto;
+}
+
+#users {
+  width: 300px;
+}
+
+.rateAndText {
+  display: block !important;
+}
+
+#reviewBlock:hover #linksContainer > ul {
+  visibility: visible;
+}

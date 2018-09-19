@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photowheel component setup renders correctly 1`] = `
+<div
+  className="modalContainer"
+>
+  <div
+    className="header"
+  >
+    Yelp
+    <br />
+    <div
+      className="test"
+    >
+      Restaurant Name
+    </div>
+    <br />
+    <div
+      className="container"
+    />
+  </div>
+</div>
+`;
