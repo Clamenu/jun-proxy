@@ -1,0 +1,20 @@
+[2018-09-19 14:45:36.831] [exthost1] [info] extension host started
+[2018-09-19 14:45:36.845] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:36.845] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-19 14:45:36.851] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:36.851] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-09-19 14:45:36.885] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:36.885] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-09-19 14:45:37.008] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:37.008] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-19 14:45:37.015] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:37.015] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-19 14:45:37.020] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:37.020] [exthost1] [info] ExtensionService#loadCommonJSModule /home/winds/.vscode/extensions/dbaeumer.vscode-eslint-1.6.0/client/out/extension
+[2018-09-19 14:45:37.061] [exthost1] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:37.061] [exthost1] [info] ExtensionService#loadCommonJSModule /home/winds/.vscode/extensions/ritwickdey.liveserver-5.1.1/out/src/extension
+[2018-09-19 14:45:37.235] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:37.235] [exthost1] [info] ExtensionService#loadCommonJSModule /home/winds/.vscode/extensions/robertohuertasm.vscode-icons-7.26.0/out/src/
+[2018-09-19 14:45:37.311] [exthost1] [info] ExtensionService#_doActivateExtension WallabyJs.quokka-vscode {"startup":true,"activationEvent":"*"}
+[2018-09-19 14:45:37.311] [exthost1] [info] ExtensionService#loadCommonJSModule /home/winds/.vscode/extensions/wallabyjs.quokka-vscode-1.0.149/index
+[2018-09-19 14:45:37.312] [exthost1] [info] eager extensions activated
