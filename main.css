@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+#photo-wheel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 0 0 0;
+    margin-left: -20px;
+}
+
+#top {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+#header-map {
+    display: flex;
+}
+
+#header {
+    margin-top: 0;
+}
+
+#bodyCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -10px;
+}
+
+#bContCont {
+    display: flex;
+    flex-direction: row;
+    width: 990px !important;
+}
+
+#top-grey {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    width: 20658px;
+    height: 424px;
+    z-index: -1;
+}
+
+#sb-app {
+    height: 370px;
+    margin-left: -1.1px;
+    margin-bottom: 3px;
+    background-color: white;
+}

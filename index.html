@@ -2,15 +2,28 @@
 <html>
 <head>
 	<Title>Yelp Reactor</Title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<div id="app"></div>
-<div id="photo-wheel"></div> 
-<div id="sb-app"></div>
-<!-- <script src="bundle.js"></script> -->
-<script src="https://s3-us-west-1.amazonaws.com/yelp-reactor-header/bundle.js"></script>
-<script src="photo-wheel-master/public/bundle.js"></script>
-<script src="sidebar-master/public/bundle.js"></script>
+	<img id="top" src="https://s3-us-west-1.amazonaws.com/yelp-reactor-header/top.png?versionId=4K.BA9bXOu7wyuYTiK8yTtWuiZ0NIQJb">
+	<div id="top-grey"></div>
+	<div id="header-map"></div>
+	<div id="bodyCont">
+		<div id="bContCont">
+			<div id="root"></div>
+			<div id="sb-app"></div>
+		</div>
+	</div>
+	<!-- <script src="bundle.js"></script> -->
+	<script src="http://localhost:7763/:id/bundle.js"></script>
+	<script src="http://localhost:3001/:id/bundle.js"></script>
+	<script src="http://localhost:7878/:id/bundle.js"></script>
+	<script src="http://localhost:3002/:id/bundle.js"></script>
 
 </body>
-</html>
+</html> 
